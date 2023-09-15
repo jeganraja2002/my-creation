@@ -6,6 +6,30 @@
 
 /* section 1 */
 
+/*.d-none1{
+	display: none;
+}*/
+
+.d-nones{
+	animation:name .3s forwards linear;
+}
+
+@keyframes name{
+		0%{display: block;opacity: 1;transform: translateY(50px);}
+		100%{display: none;opacity: 0;transform: translateY(0px);}
+}
+
+
+.d-blocks{
+	display: block;
+	animation:name1 .4s forwards linear;
+}
+
+@keyframes name1{
+		0%{visibility: hidden;display: none;opacity: 0;transform: translateY(50px);}
+		100%{visibility: visible; display: block;opacity: 1;transform: translateY(0px);}
+}
+
 
 .opacity{
 	background-color:#000000b3;
